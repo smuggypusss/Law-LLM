@@ -1,0 +1,40 @@
+  0%|          | 0/500 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+You are not running the flash-attention implementation, expect numerical differences.
+ 51%|█████     | 256/500 [3:53:54<3:40:43, 54.28s/it]Traceback (most recent call last):
+{'loss': 1.9398, 'grad_norm': 0.3010947108268738, 'learning_rate': 0.000196, 'epoch': 0.08}
+{'loss': 1.7448, 'grad_norm': 0.3359563946723938, 'learning_rate': 0.000192, 'epoch': 0.16}
+{'loss': 1.6937, 'grad_norm': 0.3560711145401001, 'learning_rate': 0.000188, 'epoch': 0.24}
+{'loss': 1.6818, 'grad_norm': 0.36594852805137634, 'learning_rate': 0.00018400000000000003, 'epoch': 0.32}
+{'loss': 1.6942, 'grad_norm': 0.38411015272140503, 'learning_rate': 0.00018, 'epoch': 0.4}
+{'loss': 1.6199, 'grad_norm': 0.368617981672287, 'learning_rate': 0.00017600000000000002, 'epoch': 0.48}
+{'loss': 1.5941, 'grad_norm': 0.41477370262145996, 'learning_rate': 0.000172, 'epoch': 0.56}
+{'loss': 1.5929, 'grad_norm': 0.3781116306781769, 'learning_rate': 0.000168, 'epoch': 0.64}
+{'loss': 1.5619, 'grad_norm': 0.3790510594844818, 'learning_rate': 0.000164, 'epoch': 0.72}
+{'loss': 1.5895, 'grad_norm': 0.3716529905796051, 'learning_rate': 0.00016, 'epoch': 0.8}
+{'loss': 1.5731, 'grad_norm': 0.41791433095932007, 'learning_rate': 0.00015600000000000002, 'epoch': 0.88}
+{'loss': 1.5001, 'grad_norm': 0.39064520597457886, 'learning_rate': 0.000152, 'epoch': 0.96}
+{'loss': 1.4752, 'grad_norm': 0.46085935831069946, 'learning_rate': 0.000148, 'epoch': 1.04}
+{'loss': 1.4072, 'grad_norm': 0.43634888529777527, 'learning_rate': 0.000144, 'epoch': 1.12}
+{'loss': 1.4689, 'grad_norm': 0.4666295647621155, 'learning_rate': 0.00014, 'epoch': 1.2}
+{'loss': 1.4322, 'grad_norm': 0.49692773818969727, 'learning_rate': 0.00013600000000000003, 'epoch': 1.28}
+{'loss': 1.4128, 'grad_norm': 0.5014491081237793, 'learning_rate': 0.000132, 'epoch': 1.36}
+{'loss': 1.4626, 'grad_norm': 0.49067455530166626, 'learning_rate': 0.00012800000000000002, 'epoch': 1.44}
+{'loss': 1.3982, 'grad_norm': 0.5034286379814148, 'learning_rate': 0.000124, 'epoch': 1.52}
+{'loss': 1.4329, 'grad_norm': 0.5179944038391113, 'learning_rate': 0.00012, 'epoch': 1.6}
+{'loss': 1.4176, 'grad_norm': 0.5004905462265015, 'learning_rate': 0.000116, 'epoch': 1.68}
+{'loss': 1.4172, 'grad_norm': 0.5273388028144836, 'learning_rate': 0.00011200000000000001, 'epoch': 1.76}
+{'loss': 1.4439, 'grad_norm': 0.5138475298881531, 'learning_rate': 0.00010800000000000001, 'epoch': 1.84}
+{'loss': 1.4767, 'grad_norm': 0.5534431338310242, 'learning_rate': 0.00010400000000000001, 'epoch': 1.92}
+{'loss': 1.3495, 'grad_norm': 0.5146776437759399, 'learning_rate': 0.0001, 'epoch': 2.0}
+  File "C:\Users\Asus\OneDrive\Desktop\LLMs\LLM_training_finetuning.py", line 106, in <module>
+    trainer.train()
+  File "C:\Users\Asus\LLMs\Lib\site-packages\trl\trainer\sft_trainer.py", line 440, in train
+    output = super().train(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 1885, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 2221, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

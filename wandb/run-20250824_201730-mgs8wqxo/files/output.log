@@ -1,0 +1,89 @@
+  0%|          | 0/500 [00:00<?, ?it/s]You are not running the flash-attention implementation, expect numerical differences.
+Traceback (most recent call last):
+  File "C:\Users\Asus\OneDrive\Desktop\LLMs\LLM_training_finetuning.py", line 102, in <module>
+    trainer.train()
+  File "C:\Users\Asus\LLMs\Lib\site-packages\trl\trainer\sft_trainer.py", line 440, in train
+    output = super().train(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 1885, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 2216, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 3238, in training_step
+    loss = self.compute_loss(model, inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\transformers\trainer.py", line 3264, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\utils\operations.py", line 822, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\utils\operations.py", line 810, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\amp\autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\peft\peft_model.py", line 1430, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\peft\tuners\tuners_utils.py", line 179, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\.cache\huggingface\modules\transformers_modules\microsoft\Phi-3-mini-4k-instruct\0a67737cc96d2554230f90338b163bc6380a2a85\modeling_phi3.py", line 1243, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\.cache\huggingface\modules\transformers_modules\microsoft\Phi-3-mini-4k-instruct\0a67737cc96d2554230f90338b163bc6380a2a85\modeling_phi3.py", line 1121, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\.cache\huggingface\modules\transformers_modules\microsoft\Phi-3-mini-4k-instruct\0a67737cc96d2554230f90338b163bc6380a2a85\modeling_phi3.py", line 842, in forward
+    attn_outputs, self_attn_weights, present_key_value = self.self_attn(
+                                                         ^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\LLMs\Lib\site-packages\accelerate\hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\.cache\huggingface\modules\transformers_modules\microsoft\Phi-3-mini-4k-instruct\0a67737cc96d2554230f90338b163bc6380a2a85\modeling_phi3.py", line 346, in forward
+    attn_weights = torch.matmul(query_states, key_states.transpose(2, 3)) / math.sqrt(self.head_dim)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 12.24 GiB is allocated by PyTorch, and 209.36 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

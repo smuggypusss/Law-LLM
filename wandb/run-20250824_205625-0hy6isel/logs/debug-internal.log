@@ -1,0 +1,30 @@
+{"time":"2025-08-24T20:56:25.6870687+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-24T20:56:26.3218382+05:30","level":"INFO","msg":"stream: created new stream","id":"0hy6isel"}
+{"time":"2025-08-24T20:56:26.3218382+05:30","level":"INFO","msg":"stream: started","id":"0hy6isel"}
+{"time":"2025-08-24T20:56:26.3218382+05:30","level":"INFO","msg":"writer: started","stream_id":"0hy6isel"}
+{"time":"2025-08-24T20:56:26.3218382+05:30","level":"INFO","msg":"sender: started","stream_id":"0hy6isel"}
+{"time":"2025-08-24T20:56:26.3218382+05:30","level":"INFO","msg":"handler: started","stream_id":"0hy6isel"}
+{"time":"2025-08-24T22:25:32.8322592+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.23.72.149:60802->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-08-24T22:25:33.7263038+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-08-24T22:25:34.9472433+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:25:35.7496342+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:25:39.7499236+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:25:40.3891475+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:25:48.3488749+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:25:48.9583255+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:26:04.9967614+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:26:07.8054464+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:26:44.9504216+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:26:45.9490516+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:27:44.954273+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:27:45.9498742+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:28:44.9583792+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:28:45.950871+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:29:44.9611312+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aryankankheria331-myself/huggingface/0hy6isel/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:29:45.9515733+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-24T22:33:17.3297118+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.4:49656->35.186.228.49:443: wsarecv: An established connection was aborted by the software in your host machine."}
+{"time":"2025-08-25T00:51:09.4717334+05:30","level":"INFO","msg":"stream: closing","id":"0hy6isel"}
+{"time":"2025-08-25T00:51:12.3580763+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-25T00:51:13.7745196+05:30","level":"INFO","msg":"handler: closed","stream_id":"0hy6isel"}
+{"time":"2025-08-25T00:51:13.7750339+05:30","level":"INFO","msg":"sender: closed","stream_id":"0hy6isel"}
+{"time":"2025-08-25T00:51:13.7750339+05:30","level":"INFO","msg":"stream: closed","id":"0hy6isel"}

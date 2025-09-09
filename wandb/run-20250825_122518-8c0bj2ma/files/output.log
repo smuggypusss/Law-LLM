@@ -1,0 +1,58 @@
+  0%|          | 0/500 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+You are not running the flash-attention implementation, expect numerical differences.
+                                                     
+{'loss': 1.9338, 'grad_norm': 0.31190040707588196, 'learning_rate': 0.000196, 'epoch': 0.08}
+{'loss': 1.7407, 'grad_norm': 0.3301849365234375, 'learning_rate': 0.000192, 'epoch': 0.16}
+{'loss': 1.6899, 'grad_norm': 0.3981482982635498, 'learning_rate': 0.000188, 'epoch': 0.24}
+{'loss': 1.6814, 'grad_norm': 0.36701807379722595, 'learning_rate': 0.00018400000000000003, 'epoch': 0.32}
+{'loss': 1.6942, 'grad_norm': 0.38376423716545105, 'learning_rate': 0.00018, 'epoch': 0.4}
+{'loss': 1.6204, 'grad_norm': 0.3720477223396301, 'learning_rate': 0.00017600000000000002, 'epoch': 0.48}
+{'loss': 1.5941, 'grad_norm': 0.40480321645736694, 'learning_rate': 0.000172, 'epoch': 0.56}
+{'loss': 1.5922, 'grad_norm': 0.37384745478630066, 'learning_rate': 0.000168, 'epoch': 0.64}
+{'loss': 1.562, 'grad_norm': 0.3766233026981354, 'learning_rate': 0.000164, 'epoch': 0.72}
+{'loss': 1.5874, 'grad_norm': 0.3761759102344513, 'learning_rate': 0.00016, 'epoch': 0.8}
+{'loss': 1.5712, 'grad_norm': 0.4248617887496948, 'learning_rate': 0.00015600000000000002, 'epoch': 0.88}
+{'loss': 1.4991, 'grad_norm': 0.39334723353385925, 'learning_rate': 0.000152, 'epoch': 0.96}
+{'loss': 1.4744, 'grad_norm': 0.46438199281692505, 'learning_rate': 0.000148, 'epoch': 1.04}
+{'loss': 1.404, 'grad_norm': 0.43900948762893677, 'learning_rate': 0.000144, 'epoch': 1.12}
+{'loss': 1.4663, 'grad_norm': 0.4709870517253876, 'learning_rate': 0.00014, 'epoch': 1.2}
+{'loss': 1.4307, 'grad_norm': 0.5012454986572266, 'learning_rate': 0.00013600000000000003, 'epoch': 1.28}
+{'loss': 1.4121, 'grad_norm': 0.5176817774772644, 'learning_rate': 0.000132, 'epoch': 1.36}
+{'loss': 1.4593, 'grad_norm': 0.49693405628204346, 'learning_rate': 0.00012800000000000002, 'epoch': 1.44}
+{'loss': 1.3954, 'grad_norm': 0.513879656791687, 'learning_rate': 0.000124, 'epoch': 1.52}
+{'loss': 1.4309, 'grad_norm': 0.5297679901123047, 'learning_rate': 0.00012, 'epoch': 1.6}
+{'loss': 1.4153, 'grad_norm': 0.4961293339729309, 'learning_rate': 0.000116, 'epoch': 1.68}
+{'loss': 1.417, 'grad_norm': 0.5340353846549988, 'learning_rate': 0.00011200000000000001, 'epoch': 1.76}
+{'loss': 1.4428, 'grad_norm': 0.5172567367553711, 'learning_rate': 0.00010800000000000001, 'epoch': 1.84}
+{'loss': 1.4765, 'grad_norm': 0.570686399936676, 'learning_rate': 0.00010400000000000001, 'epoch': 1.92}
+{'loss': 1.349, 'grad_norm': 0.525081217288971, 'learning_rate': 0.0001, 'epoch': 2.0}
+{'loss': 1.2796, 'grad_norm': 0.6041969656944275, 'learning_rate': 9.6e-05, 'epoch': 2.08}
+{'loss': 1.3379, 'grad_norm': 0.6067283153533936, 'learning_rate': 9.200000000000001e-05, 'epoch': 2.16}
+{'loss': 1.2625, 'grad_norm': 0.640700101852417, 'learning_rate': 8.800000000000001e-05, 'epoch': 2.24}
+{'loss': 1.2477, 'grad_norm': 0.6702547669410706, 'learning_rate': 8.4e-05, 'epoch': 2.32}
+{'loss': 1.338, 'grad_norm': 0.653411865234375, 'learning_rate': 8e-05, 'epoch': 2.4}
+{'loss': 1.2771, 'grad_norm': 0.6639009118080139, 'learning_rate': 7.6e-05, 'epoch': 2.48}
+{'loss': 1.2644, 'grad_norm': 0.6624040007591248, 'learning_rate': 7.2e-05, 'epoch': 2.56}
+{'loss': 1.2741, 'grad_norm': 0.686627209186554, 'learning_rate': 6.800000000000001e-05, 'epoch': 2.64}
+{'loss': 1.304, 'grad_norm': 0.7340402007102966, 'learning_rate': 6.400000000000001e-05, 'epoch': 2.72}
+{'loss': 1.2641, 'grad_norm': 0.7066638469696045, 'learning_rate': 6e-05, 'epoch': 2.8}
+{'loss': 1.3153, 'grad_norm': 0.6633529663085938, 'learning_rate': 5.6000000000000006e-05, 'epoch': 2.88}
+{'loss': 1.2761, 'grad_norm': 0.713006317615509, 'learning_rate': 5.2000000000000004e-05, 'epoch': 2.96}
+{'loss': 1.2379, 'grad_norm': 0.6782874464988708, 'learning_rate': 4.8e-05, 'epoch': 3.04}
+{'loss': 1.1529, 'grad_norm': 0.8901399374008179, 'learning_rate': 4.4000000000000006e-05, 'epoch': 3.12}
+{'loss': 1.1753, 'grad_norm': 0.8281226754188538, 'learning_rate': 4e-05, 'epoch': 3.2}
+{'loss': 1.1843, 'grad_norm': 0.8328544497489929, 'learning_rate': 3.6e-05, 'epoch': 3.28}
+{'loss': 1.2065, 'grad_norm': 0.8457565307617188, 'learning_rate': 3.2000000000000005e-05, 'epoch': 3.36}
+{'loss': 1.173, 'grad_norm': 0.9287075400352478, 'learning_rate': 2.8000000000000003e-05, 'epoch': 3.44}
+{'loss': 1.1395, 'grad_norm': 0.8436481356620789, 'learning_rate': 2.4e-05, 'epoch': 3.52}
+{'loss': 1.2101, 'grad_norm': 0.8047775030136108, 'learning_rate': 2e-05, 'epoch': 3.6}
+{'loss': 1.1362, 'grad_norm': 0.8739383816719055, 'learning_rate': 1.6000000000000003e-05, 'epoch': 3.68}
+{'loss': 1.1635, 'grad_norm': 0.8337351679801941, 'learning_rate': 1.2e-05, 'epoch': 3.76}
+{'loss': 1.1499, 'grad_norm': 0.9110877513885498, 'learning_rate': 8.000000000000001e-06, 'epoch': 3.84}
+{'loss': 1.1252, 'grad_norm': 0.8671730160713196, 'learning_rate': 4.000000000000001e-06, 'epoch': 3.92}
+{'loss': 1.1416, 'grad_norm': 0.8500811457633972, 'learning_rate': 0.0, 'epoch': 4.0}
+  warnings.warn(
+100%|██████████| 500/500 [7:26:05<00:00, 53.53s/it]
+{'train_runtime': 26793.1831, 'train_samples_per_second': 0.149, 'train_steps_per_second': 0.019, 'train_loss': 1.3795378532409668, 'epoch': 4.0}
+C:\Users\Asus\LLMs\Lib\site-packages\huggingface_hub\file_download.py:945: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
